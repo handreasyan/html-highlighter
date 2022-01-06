@@ -1,0 +1,55 @@
+#root {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.modal {
+    border: 1px solid #000;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 170px;
+    height: 100px;
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    border-radius: 10px;
+    background: aquamarine;
+}
+
+.colors {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.colors span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.red {
+    background: red;
+}
+
+.green {
+    background: green;
+}
+
+.blue {
+    background: blue;
+}
+
+.yellow {
+    background: yellow;
+}
+
+textarea {
+    resize: none
+}
